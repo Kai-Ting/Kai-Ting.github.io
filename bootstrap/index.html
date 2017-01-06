@@ -21,7 +21,7 @@
       padding: 0;
     }
     #main {
-      background-color: #a7a;
+      background-color: #fff;
       height: 600px;
     }
     .profile {
@@ -36,27 +36,62 @@
     .font-white {
       color: #fff;
     }
+    .contact {
+      padding: 2px 30px;
+    }
+    .contact ul {
+      padding-top: 30px;
+      padding-left: 0;
+      list-style: none;
+    }
+    .contact ul li {
+      margin-bottom: 2px;
+    }
+    .title{
+      font-size: 18px;
+      font-weight: 600;
+      margin: 25px 0;
+      color: #f3f;
+    }
   </style>
 </head>
 <body>
   <div  id="wrapper" class="container">
     <div class="row">
-      <div id="side" class="col-sm-4 col-md-4">
+      <div id="side" class="col-sm-3 col-md-4">
         <div class="profile">
           <img class="img-circle" src="http://img2.3lian.com/2014/f2/74/d/34.jpg" alt="">
           <h2 class="font-white">girl</h2>
           <h4 class="font-white">student</h4>
         </div>
         <div class="contact">
-          <ul>
-            <li>Email</li>
-            <li>Phone</li>
+          <ul class="font-white">
+            <li>
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              &nbsp;katy919142@gmail.com
+            </li>
+            <li>
+              <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+              &nbsp;0912345678
+            </li>
             <li>GitHub</li>
-            <li>Facebook</li>
+            <li>
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              &nbsp;facebook
+            </li>
           </ul>
         </div>
       </div>
       <div id="main" class="col-md-8">
+        <div class="area">
+          <div class="title">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            <span>個人簡介</span>
+          </div>
+          <div class="contact">
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
